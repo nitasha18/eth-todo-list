@@ -1,0 +1,15 @@
+{
+    "server": {
+      "baseDir": [
+        "./src",
+        "./build/contracts"
+      ],
+      "routes": {
+        "/vendor": "./node_modules"
+      }
+    }
+}
+
+// Using lite-server to serve all of the project files for the client side. 
+// It is needed to tell lite-server where all these files are located.
+// Can be performed by updating the brppwsersync configuration for lite-server inside this file.
